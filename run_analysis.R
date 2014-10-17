@@ -72,3 +72,4 @@ names(tidyMeans)[-c(1:3)] <- paste0("Mean_", names(tidyMeans)[-c(1:3)])
 
 write.table(tidyMeans, file="tidydata.txt", row.names=FALSE)
 
+rm("tidyMeans")
