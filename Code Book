@@ -1,0 +1,33 @@
+Title: Data collected by accelerometers from the Samsung Galaxy S smartphone
+
+
+1. subjectID
+  Unique individual subject identification number 
+  
+2. activityID
+  Different activities, category 1 to 6, corresponding to column 3 (activityType)
+  
+3. activityType
+  Different activities: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
+  
+4-69
+  Mean_: average of each variable for each activity and each subject
+  Time: time domain signals were captured at 50 Hz, filtered using a median filter and a 3rd order low pass 
+        Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was 
+        then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another 
+        low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+  Frequency: Fast Fourier Transform (FFT) was applied to some of the signals to produce frequency domain signals. 
+  Body: body. 
+  Gravity: gravity. 
+  Acc: acceleration (from accelerometer). 
+  Gyro: angular velocity (from gyroscope). 
+  Jerk: linear acceleration and angular velocity were derived in time to obtain jerk signals. 
+  Mag: magnitude of above 3-dimensional signals were calculated using the Euclidean norm. 
+  Mean: average
+  StdDev: standard deviation
+  XYZ: 3 different axial raw signals
+  
+
+
+
+
